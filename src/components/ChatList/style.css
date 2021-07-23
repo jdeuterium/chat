@@ -1,0 +1,65 @@
+.chat-list__top {
+    display: flex;
+    height: 40px;
+    padding: 0 12px;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: solid 1px #f1f1f1;
+}
+.add-chat-btn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.chat-list__body {
+    height: calc(100vh - 40px);
+}
+.dialog {
+    display: flex;
+    height: 56px;
+    padding: 0 12px;
+    border-bottom: solid 1px #f1f1f1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.dialog:hover,
+.dialog_active {
+    background: #f1f1f1;
+}
+.dialog__user-avatar {
+    height: 40px;
+}
+.dialog__user-avatar img {
+    height: 100%;
+}
+.dialog__text {
+    width: calc(100% - 40px);
+    padding-left: 12px;
+    font-family: 'Times New Roman', sans-serif;
+}
+.dialog__username {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 21px;
+
+}
+.dialog__last {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    line-height: 18px;
+}
+.dialog__last-msg {
+    font-size: 12px;
+    width: calc(100% - 30px);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dialog__last-time {
+    font-size: 12px;
+}

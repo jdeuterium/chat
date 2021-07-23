@@ -1,0 +1,33 @@
+.user-info {
+    width: calc(100vw - 80%);
+    padding-top: 40px;
+    text-align: center;
+}
+.user-info__avatar {
+    width: 140px;
+    margin: 0 auto;
+}
+.user-info__avatar img {
+    width: 100%;
+}
+.user-info__name {
+    padding: 12px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.user-info__actions {
+}
+.action-btn {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 2px;
+    margin: 0 3px;
+    border: solid 1px #777;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.action-btn:hover {
+    background: #f1f1f1;
+}
